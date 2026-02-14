@@ -1,5 +1,11 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: white;
     min-height: 100vh;
@@ -7,54 +13,54 @@ body{
     
 }
 
-
-        h1{
-            font-size: 30px;
-            font-family: italic;   
-            font-weight: 700;
-            font-style: oblique;
-        }
-        h2{font-size: 30px;
-            font-family: italic;   
-            font-weight: 700;
-            font-style: oblique;
-        }
-
-.h1{
+/*class:info*/
+.inf{
+    font-size: 40px;
+    font-family: italic;   
+    font-weight: 100;
+    font-style: oblique;
     text-align: center;
-    text-transform: capitalize;
-    text-indent: 0px;
-    
 }
-h2{
+.info{
+    font-size: 20px;
+    font-family: italic;   
+    font-weight: 200;
+    font-style: oblique;
     text-align: center;
-    text-transform: capitalize;
-    
 }
 
 img {
   width: 100px;
   display: block;   
   margin: 0 auto; 
-  border-width: 2px; 
   border: double;
   border-color: rgb(140, 137, 168);  
   border-radius: 100%;
 }
-.div1{
+.div-info{
     width: 500px;
     height:250px  ;
-    background-color:rgb(106, 116, 245);
+    background-color:rgb(31, 48, 30);
     text-align: justify;
-    display: block;
+    display:block;
     border-radius:20px;
-    margin: 0 auto; 
-    text-indent: 70px;
-    text-shadow: 0px 5px 10px rgb(51, 31, 31);
-    
+    margin: 20px auto; 
+    text-indent: 35px;
+    text-shadow: 0px 5px 10px rgb(44, 35, 35);
+    font-weight: 700;
    }
-.p1{
+
+
+
+   h2{
+    font-size: 30px;
+    font-family: italic;   
+    font-weight: 700;
+    font-style: oblique;
+ }
+
+h2{
     text-align: center;
-    text-indent: 0px;
-    text-decoration: solid;
+    text-transform: capitalize;
+    
 }
